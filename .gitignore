@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*
+!frontend/.env.example
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Misc
+.DS_Store
+*.log
+
+# Backup of nested git history (see conversation notes)
+frontend/.git.bak/
